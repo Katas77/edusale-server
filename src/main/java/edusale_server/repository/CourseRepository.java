@@ -1,12 +1,7 @@
 package edusale_server.repository;
 
+import edusale_server.entity.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import edusale_server.model.Course;
-
-import java.util.List;
-
-public interface CourseRepository {
-    List<Course> findAll();
-    Course findById(Long id);
-    Course save(Course course);
+public interface CourseRepository extends JpaRepository<Course, Long> {
 }

@@ -3,7 +3,7 @@ package edusale_server.service;
 import edusale_server.dto.AuthResponse;
 import edusale_server.dto.LoginRequest;
 import edusale_server.dto.RegisterRequest;
-import edusale_server.model.User;
+import edusale_server.entity.User;
 import edusale_server.repository.UserRepository;
 import edusale_server.security.JwtTokenProvider;
 import org.springframework.security.crypto.password.PasswordEncoder;
